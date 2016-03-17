@@ -29,7 +29,7 @@ You should back-up your computer before moving forward.
 
 2. Change the owner of npm's directories to the name of the current user (your username!):
 
-        sudo chown -R $(whoami) $(npm config get prefix)/{lib/node_modules,bin,share}
+        sudo chown -R $(whoami) $(npm config get prefix)/lib/node_modules,bin,share}
 
   This changes the permissions of the sub-folders used by npm and some other tools (`lib/node_modules`, `bin`, and `share`).
 
